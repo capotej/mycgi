@@ -1,0 +1,8 @@
+address = "localhost"
+port = 8000
+document_root = "private_html"
+
+# localhost:8000/cgi/example
+[bins.example]
+# relative to document_root/cgi
+path = "example.sh"
